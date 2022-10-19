@@ -29,7 +29,7 @@ async def index():
 
 @app.get(API_PATH + 'pizza_page')
 async def all_pizzas():
-    return {"pizzas": db}
+    return None
 
 
 @app.get(API_PATH + 'pizza_page/{pizza_id:int}')
